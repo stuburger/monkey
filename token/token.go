@@ -10,7 +10,7 @@ type Token struct {
 
 const (
 	ILLIGAL = "ILLEGAL"
-	EFO     = "EOF"
+	EOF     = "EOF"
 
 	// Identifiers + literals
 	IDENT = "IDENT" // add, foobar, x, y
