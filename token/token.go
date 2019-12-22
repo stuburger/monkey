@@ -4,8 +4,8 @@ package token
 type TokenType string
 
 type Token struct {
-	Type    TokenType
-	Literal string
+	Type    TokenType // LET, EQ, IDENT, EOF, ILLIGAL, GT, LT, etc
+	Literal string    // "=", "!=", "let", "return", "42", etc
 }
 
 const (
